@@ -29,13 +29,13 @@ class Order extends Model implements OrderContract
     ];
 
     protected $statusLabel = [
-        self::STATUS_PENDING         => 'Pending',
-        self::STATUS_PENDING_PAYMENT => 'Pending Payment',
-        self::STATUS_PROCESSING      => 'Processing',
-        self::STATUS_COMPLETED       => 'Completed',
-        self::STATUS_CANCELED        => 'Canceled',
-        self::STATUS_CLOSED          => 'Closed',
-        self::STATUS_FRAUD           => 'Fraud',
+        self::STATUS_PENDING         => 'Очаква обработка',
+        self::STATUS_PENDING_PAYMENT => 'Очаква плащане',
+        self::STATUS_PROCESSING      => 'В обработка',
+        self::STATUS_COMPLETED       => 'Завършена',
+        self::STATUS_CANCELED        => 'Отказана',
+        self::STATUS_CLOSED          => 'Затворена',
+        self::STATUS_FRAUD           => 'Измама',
     ];
 
     /**
